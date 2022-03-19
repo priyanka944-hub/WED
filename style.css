@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2&display=swap');
+body{
+  background-color:#EDFA8B;
+}
+canvas{
+  border:8px solid   #000000; 
+  box-shadow: 1px 1px 10px rgb(2, 9, 143);
+}
+h1{
+  font-family: 'Exo 2', sans-serif;
+  font-size: 80px;
+  text-shadow: 5px 5px 10px black;
+  border-style:double;
+}
+.my_nav_bar
+{
+    position:sticky;
+    top:0;
+    z-index:99999
+}
+.container img {
+width: 100%;
+height: auto;
+}
+.container {
+position: relative;
+width: 100%;
+max-width: 400px;
+background-color: lightgrey;
+width: 100px;
+  height:500px;
+border: 15px solid green;
+padding: 50px;
+margin: 20px;
+}
+.container .btn {
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+-ms-transform: translate(-50%, -50%);
+background-color: #555;
+color: white;
+font-size: 16px;
+padding: 12px 24px;
+border: none;
+cursor: pointer;
+border-radius: 5px;
+text-align: center;
+}
+
+.container .btn:hover {
+background-color: black;
+}
